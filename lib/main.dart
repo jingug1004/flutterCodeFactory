@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world/blogWebApp/screen/blog_home_screen.dart';
+// import 'package:hello_world/blogWebApp/screen/blog_home_screen.dart';
+import 'package:hello_world/imageCarousel/carouselScreen/carousel_home_screen.dart';
 
 void main() {
   runApp(
     MaterialApp(
-      home: BlogHomeScreen(),
+      home: CarouselHomeScreen(),
     ),
   );
 }
