@@ -36,6 +36,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   webview_flutter: 3.0.4
+  shake: 2.1.0 # 흔들림을 감지하는 플러그인
 
 dev_dependencies:
   flutter_test:
@@ -61,7 +62,8 @@ flutter:
   assets:
     #    - assets/
     #    - lib/imageCarousel/carouselAsset/carouselImg/
-    - assets/uAndi/uAndiImg/
+    #    - assets/uAndi/uAndiImg/
+    - assets/random/diceImg/
 
     # To add assets to your application, add an assets section, like this:
     # assets:
